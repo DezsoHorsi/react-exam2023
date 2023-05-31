@@ -9,7 +9,6 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Simulate API call delay
         await new Promise((resolve) => setTimeout(resolve, 2000));
 
         const response = await fetch('https://demoapi.com/api/laptop');
